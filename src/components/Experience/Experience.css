@@ -1,0 +1,73 @@
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+
+.experience p{
+    max-width: 500px;
+    margin-bottom: 25px;
+    
+}
+
+.exp-boxes{
+
+    padding: 15px 25px;
+    display:  flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-basis: 25%;
+}
+
+.exp-box{
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    height: 250px;
+    max-width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.exp-box p{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.work-experience {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .company-buttons {
+    display: block;
+    flex-direction: column;
+    flex-basis: 20%;
+    padding: 20px;
+  }
+  
+  .company-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100px;
+    border: none;
+    background: none;
+  
+  }
+
+  .company-button.active{
+    border: none;
+    border-left: 2px solid #2277FF;
+  }
+
+  .experience-details {
+    flex-basis: 80%;
+    padding: 20px;
+  }

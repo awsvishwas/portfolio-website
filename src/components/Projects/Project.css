@@ -1,0 +1,48 @@
+.project{
+    position: relative;
+    display: flex;
+    flex-basis: 35%;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 250px;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(30,10,30,0.07);
+}
+
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    background: rgba(0, 0, 4, 0.75);
+    color: #FFF;
+    flex-direction: column;
+    display: flex; justify-content: center; 
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-right: 50%;
+}
+
+.caption img{
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+.project:hover .caption{
+    opacity: 1;
+    padding-right: 0;
+}
+
+.project p{
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+

@@ -1,0 +1,19 @@
+.projects-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #171b2c;
+}
+
+.projects{
+    display: inline-flex;
+    width: 90%;
+    padding: 40px;
+}
+
+.projects-section p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+}

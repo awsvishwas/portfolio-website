@@ -1,0 +1,27 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.skills p{
+    margin-top: 40px;
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+
+}
+
+.tech-icons{
+     margin: 40px 0;
+}
+
+.tech-icons img{
+    margin-left: 20px ;
+    width: 60px;
+}
